@@ -31,10 +31,20 @@ app.use("/api/ipos", ipoRoutes);
 app.use("/api/market", marketRoutes);
 
 // Connect to MongoDB
-await connectDB();
 
-app.listen(process.env.PORT, () => {
-  console.log(`Server running on port ${process.env.PORT}`);
-});
+
+(async function () {
+    const port = process.env.PORT || 4000
+    try {
+        await Promise.all([
+            connectDB(),
+        ])
+        app.listen(port, () => {
+            console.log("Server started on Port : ", port);
+        })
+    } catch (error) {
+        console.error("Error starting server:", error.message);
+    }
+}())
 
 export default app;
