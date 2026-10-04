@@ -188,6 +188,41 @@ IPO-Tracker/
 
 ---
 
+## 🏗️ Application Architecture
+
+```
+                    ┌───────────────────┐
+                    │       User        │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │  React Frontend   │
+                    │   Vite + React    │
+                    └─────────┬─────────┘
+                              │
+             ┌────────────────┼────────────────┐
+             │                │                │
+             ▼                ▼                ▼
+        Clerk Auth        IPO Tracker       Calculator
+             │                │                │
+             └────────────────┼────────────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │   Express API     │
+                    │      Server       │
+                    └─────────┬─────────┘
+                              │
+             ┌────────────────┼────────────────┐
+             │                │                │
+             ▼                ▼                ▼
+         MongoDB         Market Data       Scraper
+             │
+             ▼
+       IPO Application Data
+```
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -265,6 +300,32 @@ CLERK_SECRET_KEY=sk_test_xxxxxxxxxxxx
 VITE_CLERK_PUBLISHABLE_KEY=pk_test_xxxxxxxxxxxx
 VITE_API_URL=http://localhost:5000/api
 ```
+
+## 🔑 Authentication Flow
+
+ - IPO Tracker uses Clerk for authentication.
+
+ - The application follows this flow:
+ 
+```                    User
+                      │
+                      ▼
+               Landing Page
+                      │
+             ┌────────┴────────┐
+             │                 │
+           Login             Sign Up
+             │                 │
+             ▼                 ▼
+       Clerk Sign In      Clerk Sign Up
+          Popup              Popup
+             │                 │
+             └────────┬────────┘
+                      │
+                      ▼
+                  Dashboard
+```
+
 
 > ⚠️ Never commit `.env` files. Both folders already ignore them through `.gitignore`.
 > The Publishable Key on the client and the Publishable and Secret Keys on the server must come from the **same** Clerk application.
