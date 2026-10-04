@@ -69,19 +69,19 @@ IPO details such as open date, close date, allotment date, listing date, GMP, lo
 
 ## 📸 Screenshots
 
-> Replace each `docs/screenshots/*.png` path with your own image. Create a `docs/screenshots` folder in the repo and upload your screenshots there.
+
 
 | Page | Light mode | Dark mode | Mobile |
 | ---- | ---------- | --------- | ------ |
-| **Landing page** | ![Landing Light](docs/screenshots/landing-light.png) | ![Landing Dark](docs/screenshots/landing-dark.png) | ![Landing Mobile](docs/screenshots/landing-mobile.png) |
-| **Dashboard** | ![Dashboard Light](docs/screenshots/dashboard-light.png) | ![Dashboard Dark](docs/screenshots/dashboard-dark.png) | ![Dashboard Mobile](docs/screenshots/dashboard-mobile.png) |
-| **Applied IPOs** | ![Applied Light](docs/screenshots/applied-light.png) | ![Applied Dark](docs/screenshots/applied-dark.png) | ![Applied Mobile](docs/screenshots/applied-mobile.png) |
-| **Allotted (Gain / Loss)** | ![Allotted Light](docs/screenshots/allotted-light.png) | ![Allotted Dark](docs/screenshots/allotted-dark.png) | ![Allotted Mobile](docs/screenshots/allotted-mobile.png) |
-| **Not Allotted** | ![Not Allotted Light](docs/screenshots/not-allotted-light.png) | ![Not Allotted Dark](docs/screenshots/not-allotted-dark.png) | ![Not Allotted Mobile](docs/screenshots/not-allotted-mobile.png) |
-| **Add IPO modal** | ![Add IPO Light](docs/screenshots/add-ipo-light.png) | ![Add IPO Dark](docs/screenshots/add-ipo-dark.png) | ![Add IPO Mobile](docs/screenshots/add-ipo-mobile.png) |
-| **Calculator** | ![Calculator Light](docs/screenshots/calculator-light.png) | ![Calculator Dark](docs/screenshots/calculator-dark.png) | ![Calculator Mobile](docs/screenshots/calculator-mobile.png) |
-| **Admin panel** | ![Admin Light](docs/screenshots/admin-light.png) | ![Admin Dark](docs/screenshots/admin-dark.png) | ![Admin Mobile](docs/screenshots/admin-mobile.png) |
-| **Login / Sign up** | ![Auth Light](docs/screenshots/auth-light.png) | ![Auth Dark](docs/screenshots/auth-dark.png) | ![Auth Mobile](docs/screenshots/auth-mobile.png) |
+| **Landing page** | ![Landing Light](<img width="947" height="425" alt="Image" src="https://github.com/user-attachments/assets/2f845cf0-01f6-462d-975a-29fd08eb8e0b" />) | ![Landing Dark](<img width="944" height="434" alt="Image" src="https://github.com/user-attachments/assets/abf4e03a-90c6-49ab-93ba-37e828fe0174" />) | ![Landing Mobile](<img width="158" height="353" alt="Image" src="https://github.com/user-attachments/assets/3cd36492-332c-4033-a0dc-6289733c6e1a" />) |
+| **Dashboard** | ![Dashboard Light](<img width="944" height="435" alt="Image" src="https://github.com/user-attachments/assets/29e8073d-c779-4174-aaab-178245454776" />) | ![Dashboard Dark](<img width="945" height="437" alt="Image" src="https://github.com/user-attachments/assets/a1364d11-2450-445a-b05c-279db15de969" />) | ![Dashboard Mobile](<img width="157" height="353" alt="Image" src="https://github.com/user-attachments/assets/852666b4-ca27-4b49-83a6-03c90154786d" />) |
+| **Applied IPOs** | ![Applied Light](<img width="946" height="438" alt="Image" src="https://github.com/user-attachments/assets/5fa34fd8-7dfd-45ae-a2c5-53167cb39df6" />) | ![Applied Dark](<img width="947" height="434" alt="Image" src="https://github.com/user-attachments/assets/43989171-5dc8-49fa-818e-94f3c379926f" />) | ![Applied Mobile](<img width="159" height="357" alt="Image" src="https://github.com/user-attachments/assets/99642caa-c1f7-4b12-bdcb-8eee73c710c4" />) |
+| **Allotted (Gain / Loss)** | ![Allotted Light](<img width="946" height="435" alt="Image" src="https://github.com/user-attachments/assets/6267ffd4-3842-4b06-bbd4-f1fd936563c5" />) | ![Allotted Dark](<img width="945" height="424" alt="Image" src="https://github.com/user-attachments/assets/de84ae17-2e02-4ed8-85a5-a7ca8e9ef10a" />) | ![Allotted Mobile](<img width="158" height="353" alt="Image" src="https://github.com/user-attachments/assets/a10f1661-15a9-4628-9181-e1614c1ff289" />) |
+| **Not Allotted** | ![Not Allotted Light](<img width="946" height="431" alt="Image" src="https://github.com/user-attachments/assets/9d636e7d-949e-4569-8211-623f78cae48d" />) | ![Not Allotted Dark](<img width="945" height="430" alt="Image" src="https://github.com/user-attachments/assets/bb7a3bae-3544-4d46-b214-933ae3263146" />) | ![Not Allotted Mobile](<img width="158" height="353" alt="Image" src="https://github.com/user-attachments/assets/7a5f5abe-0aa0-4e2d-aa9d-5a5865214d47" />) |
+| **Add IPO modal** | ![Add IPO Light](docs/screenshots/add-ipo-light.png) | ![Add IPO Dark](<img width="952" height="434" alt="Image" src="https://github.com/user-attachments/assets/0eebea48-8852-42bc-a7b8-d6b558dc41cf" />) | ![Add IPO Mobile](<img width="158" height="355" alt="Image" src="https://github.com/user-attachments/assets/de730d06-7402-4641-ace1-affa4b9708ce" />) |
+| **Calculator** | ![Calculator Light](<img width="946" height="436" alt="Image" src="https://github.com/user-attachments/assets/c0f11c3e-91b7-4598-9ff5-753c44d0b256" />) | ![Calculator Dark](<img width="943" height="434" alt="Image" src="https://github.com/user-attachments/assets/bd737066-cbda-4ab8-b76e-064f1f1e2291" />) | ![Calculator Mobile](<img width="157" height="352" alt="Image" src="https://github.com/user-attachments/assets/94da058d-ba48-43fd-93d5-1c5be29c9395" />) |
+
+| **Login / Sign up** | ![Auth Light](<img width="947" height="434" alt="Image" src="https://github.com/user-attachments/assets/1eff9af5-54ce-4548-baa3-636c9e47d8cc" />) | ![Auth Dark](<img width="941" height="431" alt="Image" src="https://github.com/user-attachments/assets/b2d1382a-d9e0-4440-8ade-ac2770548246" />) | ![Auth Mobile](<img width="157" height="353" alt="Image" src="https://github.com/user-attachments/assets/1359727b-a398-4e5b-b746-bae88de1e75d" />) |
 
 ---
 
